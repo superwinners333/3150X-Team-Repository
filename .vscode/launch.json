@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/april/OneDrive/Desktop/3150X-Team-Repository/src",
-      "program": "c:/Users/april/OneDrive/Desktop/3150X-Team-Repository/src/build/Debug/outDebug",
+      "cwd": "c:/Users/april/3150X-Team-Repository/src/routes",
+      "program": "c:/Users/april/3150X-Team-Repository/src/routes/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -232,12 +232,12 @@ Zeroing(true,true);
 //Put Auto route function into if statements to use autoselector
 if(AutoSelectorVal==1)//Quali close 6 triball auto 
 {
-  test();
+  // test();
 }
 
 if(AutoSelectorVal==2)// awp mid steal
 {
-  test2();
+  // test2();
 
 }
 
@@ -347,7 +347,7 @@ int PTask(void)
     //   ButtonPressingY=1;
     //   YTaskActiv=0;
     //   Clamp.set(false);
-    }
+    // }
 
 
 

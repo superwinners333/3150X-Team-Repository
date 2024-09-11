@@ -16,15 +16,15 @@ motor RM = motor(PORT10, ratio6_1, true);
 motor LB = motor(PORT18, ratio6_1, true);
 motor RB = motor(PORT8, ratio6_1, false);
 motor Roller = motor(PORT16, ratio6_1, false);
-digital_out Clamp = digital_out(Brain.ThreeWirePort.A);
-digital_out Clamp2 = digital_out(Brain.ThreeWirePort.B);
-digital_out tilt = digital_out(Brain.ThreeWirePort.C);
 digital_out Pistake = digital_out(Brain.ThreeWirePort.D);
+digital_out Tilt = digital_out(Brain.ThreeWirePort.C);
+digital_out Clamp = digital_out(Brain.ThreeWirePort.A);
+digital_out Clamp2 = digital_out(Brain.ThreeWirePort.B)
 inertial Gyro = inertial(PORT2);
 //Naming convention: 
 // Important variables
-const double wheelDiam = 3.25;
-const double wheelToMotorRatio = 36.0/60;
+const double wheelDiam = 2.75;
+const double wheelToMotorRatio = 48.0/36;
 
 // VEXcode generated functions
 // define variable for remote controller enable/disable
